@@ -3,7 +3,7 @@
 <head>
     <title>Bootstrap Portfolio About Me Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato|Russo+One&display=swap" rel="stylesheet">
 </head>
 
 
@@ -11,21 +11,50 @@
     img {
         float: left;
     }
+
     h1 {
-        background-color: teal;
-        color: white;
-        margin-left: 100px;
+        font-family: 'Russo One', sans-serif;
     }
     h2 {
-        color: teal;
+        color: blue;
     }
-    body {
-        background-color: #ccc;
+    .wrap {
+      background-image: url("galaga-hd-wallpapers-33152.jpg");
+    }
+    .card {
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
     }
 
-    .container {
+    .card-title {
+        font-size: 30px;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    #about {
+        color: greenyellow;
+        font-size: 36px;
+        line-height: 1.5em;
+        margin: 20px;
+    }
+
+    .aside {
+
+        margin-left: 250px;
+        margin-bottom: 40px;
+        padding: 20px;
+        margin-top: -150px;
         background-color: white;
     }
+
+    .nav-item {
+        font-size: 24px;
+        line-height: 1.5em;
+    }
+
 
     .footer {
     background-color: white;
@@ -39,16 +68,7 @@
 </style>
 
 <body>
-    <div class="wrap">
-        <div class="header">
-            <div class="col-md-4">
-                <p>span 1</p>
-            </div>
-            <div class="col-md-4">
-            <span><p>span 1/3</p></span></p><h1>Ryan Lester</h1><span><p>span 3/3</p></span></div>
-            <div class= "col-md-4">
-            <p>span 3</p>
-            </div>
+    
             <div class="container">
                     <nav class="navbar navbar-expand-sm navbar-light bg-light">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,35 +98,39 @@
         </div>
     </div>
     
-    <div class="container">
-        <div class="body">
-        <h2>About Me</h2>
-        <hr>
-        <div class="card" style="width: 18rem;">
-            <img src="https://i.ibb.co/8mrpFK4/IMG-20171107-135816-322.jpg" class="card-img-top" alt="IMG-20171107-135816-322">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        <p id="about">Hi! My name is Ryan Lester. I have lived most of my life in Colonial Heights, Virginia and attended James Madison University in Harrisonburg.  My list of hobbies are still expanding; I am practicing guitar
-        and chess, enjoy reading fiction and nonfiction books, and am hoping to get back into hiking as the weather warms up.</p>
-        <p>My brother has inspired me to explore the tech industry so I am currently training in full-stack web development.  Looking forward to learn about the back-end of the stack. Coding will open a much larger world, as I go from mere passive Internet browsing to building, manipulating, and creating on the medium.
-        </p>
-
-         </div>
+    <div class="wrap">
+        <div class="row row-eq-height no-gutters">
+            <div class="col-sm-6 photo">
+                <div class="edge">
+                    <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/8mrpFK4/IMG-20171107-135816-322.jpg" class="card-img-top" alt="IMG-20171107-135816-322">
+                        <div class="card-body">
+                            <h5 class="card-title">Ryan Lester</h5>
+                            <p class="card-text">Aspiring web designer and programmer</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 content">
+                    <div class="edge">
+                    <h1 id="about">Hi! My name is Ryan Lester. I have lived most of my life in Colonial Heights, Virginia and attended James Madison University in Harrisonburg.  My list of hobbies are still expanding; I am practicing guitar
+                    and chess, enjoy reading fiction and nonfiction books, and am hoping to get back into hiking as the weather warms up.</h1>
+                    <br><br>
+                    <h1 id="about">My brother has inspired me to explore the tech industry so I am currently training in full-stack web development.  Looking forward to learn about the back-end of the stack. Coding will open a much larger world, as I go from mere passive Internet browsing to building, manipulating, and creating on the medium.
+                    </h1>
+                    </div>
+                    </div>
          <br>
          <br>
          <div class="aside">
+             <div class="container">
                 <h3>Connect With Me</h3>
-                    <ol>
-                        <li><a href="https://github.com/ryanlester91"><img src="#" alt="GitHub Profile"></a></li>
-                        <li><a href="#"><img src="assets/images/linkedin.png" alt="LinkedIn Profile"></a></li>
-                    </ol>
+                    
+                        <a href="https://github.com/ryanlester91"><img src="./GitHub-Mark-64px.png"></a>
+                        <a href="#"><img src="./iconfinder_linkedin_28298.png"></a>
+                    
             </div>
-        </div>
-    </div>
+            </div>
     
         <div class="footer">
             <p>Copyright 2019 Ryan Lester</p>
