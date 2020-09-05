@@ -97,3 +97,25 @@
         opacity: 0;
     }
 }
+
+.sprite img:nth-child(1){
+    animation-delay: 2s;
+}
+.sprite img:nth-child(2){
+    animation-delay: 4s;
+}
+.sprite img:nth-child(3){
+    animation-delay: 1s;
+}
+.sprite img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.sprite img:nth-child(5){
+    animation-delay: 3s;
+}
+.sprite img:nth-child(6){
+    animation-delay: 6s;
+}
+.sprite img:nth-child(7){
+    animation-delay: 5s;
+}
