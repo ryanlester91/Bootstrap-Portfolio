@@ -1,0 +1,99 @@
+
+    img {
+        float: left;
+    }
+
+    h1 {
+        font-family: 'Russo One', sans-serif;
+    }
+    h2 {
+        color: blue;
+    }
+    body {
+      background-image: url("galaga-hd-wallpapers-33152.jpg");
+    }
+    .card {
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        background-color: lightgoldenrodyellow;
+        
+    }
+
+    .card-title {
+        font-size: 30px;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    
+    #about {
+        color: greenyellow;
+        font-size: 36px;
+        line-height: 1.5em;
+        margin-left: -60px;
+        margin: 30px;
+        
+    }
+
+    .aside {
+        height: 130px;
+        margin-left: 250px;
+        margin-bottom: 40px;
+        padding: 10px;
+        margin-top: -150px;
+        background-color: white;
+    }
+
+    .nav-item {
+        font-size: 16px;
+        line-height: 1.5em;
+        font-family: Verdana, sans-serif;
+        
+    }
+
+
+    .footer {
+    background-color: white;
+    width: 300px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.navbar {
+    margin-left: -150px;
+}
+
+.sprite img{
+    width: 50px;
+    animation: sprite 7s linear infinite;
+}
+
+.sprite {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes sprite{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
